@@ -1,4 +1,3 @@
-import github from "../assets/skills/github.png";
 import photo1 from "../assets/project/1.png";
 import photo2 from "../assets/project/2.png";
 import photo3 from "../assets/project/3.png";
@@ -11,7 +10,7 @@ export const data = [
     description:"Online game with Blockchain technology. Issuance of own currency Token as in-game currency and accessory NFTs through Smart Contracts. Use of Ethers.js and OpenZeppelin libraries for interaction with Web3. Linked to Metamask for funding and withdrawal of Tokens and purchase of NFT.",
     technologies:"Next.js,  FireBase, FireStore, React, Redux, ChakraUi and Tailwind",
     image: photo1,
-    code: github,
+    code: 'https://github.com/parmaps/itesa-nft-game',
   },
   {
     id: 2,
@@ -21,7 +20,7 @@ export const data = [
     description:"Development of an e-commerce type Web Application, sale of Funko Pop collectible dolls.Secure user registration, add products to cart and purchase history.",
     technologies:"React, Redux, Postgres and Material UI",
     image: photo2,
-    code: github,
+    code: 'https://github.com/sberberova/FunkyFunkos',
   },
   {
     id: 3,
@@ -31,6 +30,6 @@ export const data = [
     description:"Development of a Movie Web Application that consumes API from the TMDB movie database. Users can register, search and add series or movies to favorites.",
     technologies:"React and CSS",
     image: photo3,
-    code: github,
+    code: 'https://github.com/MechiRamella/checkpoint-TMDB-220102',
   },
 ];

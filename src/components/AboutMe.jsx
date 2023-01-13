@@ -1,6 +1,6 @@
 import React from "react";
 import Foto from "../assets/about/fotohome.png";
-import Resume from "../assets/about/resumeRamellaMercedes.jpg";
+import Resume from "../assets/about/ResumeMercedesRamella.jpg";
 import Typed from "react-typed";
 
 const About = () => {

@@ -50,7 +50,7 @@ const Work = () => {
                 <br/>
                 <div className="text-center ">
                   {/* eslint-disable-next-line */}
-                  <a href={item.github} target="_blank">
+                  <a href={item.code} target="_blank">
                     <button
                       className="text-center rounded-lg px-4 py-2 m-2
                        bg-[#ffbf69] text-[#2ec4b6] font-bold text-lg"
@@ -58,7 +58,6 @@ const Work = () => {
                       Code
                     </button>
                   </a>
-    
                 </div>
               </div>
             </div>
