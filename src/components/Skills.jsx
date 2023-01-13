@@ -1,3 +1,4 @@
+import React from 'react';
 import {tecnologies} from "../data/tecnologies";
 import Typed from "react-typed";
 
