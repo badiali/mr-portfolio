@@ -1,6 +1,6 @@
 import React from "react";
 import { data } from "../data/data";
-import Typed from "react-typed";
+import { ReactTyped } from "react-typed";
 
 const Work = () => {
   // projects file
@@ -12,12 +12,12 @@ const Work = () => {
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold">
-          <Typed
+          <ReactTyped
                 strings={["Projects"]}
                 typeSpeed={120}
                 backSpeed={1000}
                 loop
-              ></Typed>
+              ></ReactTyped>
           </p>
           <p className="py-8 text-xl">Check out some of my recent work</p>
         </div>

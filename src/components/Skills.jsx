@@ -1,6 +1,6 @@
 import React from 'react';
 import {tecnologies} from "../data/tecnologies";
-import Typed from "react-typed";
+import { ReactTyped } from "react-typed";
 
 
 const Skills = () => {
@@ -9,12 +9,12 @@ const Skills = () => {
       <div className="max-w-[1000px] mx-auto flex flex-col justify-center p-4 w-full">
         <div>
           <p className="text-4xl font-bold">
-          <Typed
+          <ReactTyped
                 strings={[" My Skills"]}
                 typeSpeed={120}
                 backSpeed={1000}
                 loop
-              ></Typed>
+              ></ReactTyped>
           </p>
           <p className="py-8 text-xl">
             These are the technologies I've worked with...

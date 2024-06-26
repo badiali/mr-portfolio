@@ -1,7 +1,7 @@
 import React from "react";
 import Foto from "../assets/about/fotohome.png";
 import Resume from "../assets/about/ResumeMercedesRamella.jpg";
-import Typed from "react-typed";
+import { ReactTyped } from "react-typed";
 
 const About = () => {
   return (
@@ -10,12 +10,12 @@ const About = () => {
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
           <div className="sm:text-left pb-8 pl-4 pt-20">
             <p className="text-[#ff9f1c] text-4xl font-bold">
-              <Typed
+              <ReactTyped
                 strings={["About me"]}
                 typeSpeed={120}
                 backSpeed={1000}
                 loop
-              ></Typed>
+              ></ReactTyped>
             </p>
           </div>
           <div></div>

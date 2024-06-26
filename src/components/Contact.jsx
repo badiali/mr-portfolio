@@ -1,5 +1,5 @@
 import React from "react";
-import Typed from "react-typed";
+import { ReactTyped } from "react-typed";
 import mapa from "../assets/contact/contact.png";
 
 const Contact = () => {
@@ -13,12 +13,12 @@ const Contact = () => {
             className="flex flex-col max-w-[600px] w-full"
           >
             <p className="text-[#FF9F1C] text-4xl font-bold pt-20">
-              <Typed
+              <ReactTyped
                 strings={["Contact me"]}
                 typeSpeed={120}
                 backSpeed={1000}
                 loop
-              ></Typed>
+              ></ReactTyped>
             </p>
             <p className="text-[#FF9F1C] py-8 text-xl ">
               Submit the form below or shoot me an email:
